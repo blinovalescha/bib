@@ -1,0 +1,18 @@
+Задание:
+1. Зарегистрироваться на github.com
+2. Найти репозиторий - https://github.com/dverlik/bib
+  2.1 Сделать "Follow" аккаунта Влада(dverlik) и Евгения (dodgy-mercurius)
+  2.2 Поставить "Star" этому репозиторию
+3. Загрузить удалённый репозиторий к себе на компьютер с помощью команды git clone 
+  $ git clone https://github.com/dverlik/bib.git 
+4. Открыть в текстовом редакторе файл "check_list" и вписать строку такого формата
+  <Фамилия Имя> : <Ссылка на свой github аккаунт> 
+  Пример:
+    Михеев Евгений : https://github.com/dodgy-mercurius/
+    Барсело Влад : https://github.com/dverlik/
+5. Загрузить изменения с локального на удалённый репозиторый
+  5.1 $> git add check_list
+  5.2 $> git push origin master
+  5.3 $> git commit -m "Ваш комментарий" # В комментарии лучше писать "check_list updated"
+6. ...
+7. Всё! Вы сделали свой первый коммит. 
